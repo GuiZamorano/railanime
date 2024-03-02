@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  anime_name: MyString
+  authour: MyString
+  watched: false
+  rating: 1
+
+two:
+  anime_name: MyString
+  authour: MyString
+  watched: false
+  rating: 1

@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  <h1 class="display-4"><%= @animedc.anime_name %></h1>
+  <p class="lead"><%= @animedc.authour %></p>
+  <hr class="my-4">
+  <p>Watched? <%= @animedc.watched %> |  Rating: <%= @animedc.rating %></p>
+   <%= link_to "Edit this Entry", edit_animedc_path(@animedc), class:"btn btn-secondary" %> 
+  <%= link_to "Back to Anime List", animedcs_path, class:"btn btn-secondary" %>
+
+  <%= button_to "Delete this Entry", @animedc, method: :delete, class:"btn btn-danger" %>
+</div>
+
